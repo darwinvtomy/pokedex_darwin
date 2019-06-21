@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'dart:math';
 
 class WhothatPokemon extends StatefulWidget {
   @override
@@ -7,6 +8,9 @@ class WhothatPokemon extends StatefulWidget {
 
 class _WhothatPokemonState extends State<WhothatPokemon> {
   Color pokicolor = Colors.blue.shade900;
+  String pokiImage =
+      'https://www.serebii.net/pokemongo/pokemon/${Random().nextInt(800).toString().padLeft(3, "0")}.png';
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -46,7 +50,7 @@ class _WhothatPokemonState extends State<WhothatPokemon> {
                   top: 50,
                   left: 50,
                   child: Image.network(
-                    'https://www.serebii.net/pokemongo/pokemon/002.png',
+                    pokiImage,
                     color: pokicolor,
                   ),
                 )
