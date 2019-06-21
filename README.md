@@ -1,6 +1,10 @@
 # pokedex_darwin
 
-A Flutter application showin pokedex
+A Flutter application showing List of Pokemons
+
+## Screen Shots
+![alt text](https://github.com/darwinvtomy/pokedex_darwin/blob/master/screens/screen.gif?raw=true)
+
 
 ## Getting Started
 
