@@ -23,6 +23,7 @@ This project is a starting point for a Flutter application.
 
 ## Instruction
 
+* If you find "flutter_svg" doesn't work make sure you change your flutter SDK from stable to dev
 * Install a flutter IDE to use this Code 
 * The following Project will support both IOS and Android Devices
 * Resources related Flutter can be found below 
