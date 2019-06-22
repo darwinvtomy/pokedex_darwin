@@ -25,7 +25,7 @@ class Pokemon {
 
   Pokemon({this.name, this.url, this.color });
 
-  Pokemon.fromJson(Map<String, dynamic> json) {
+  Pokemon.fromJson(Map<String, dynamic> json)  {
     final paths = json['url'].toString().split('/');
     var randomColorIndex = new Random().nextInt(colors.length);
     name = json['name'];
